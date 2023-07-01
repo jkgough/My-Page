@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+.navBlock {
+    /* background-color: hsl(29, 41%, 81%); */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid;
+    border-color: black;
+    
+
+}
+
+.logo {
+   /* background-color: brown; */
+    position: absolute;
+    top: 0px;
+    left: 140px;
+    height: 30px;
+    padding: 23px 0px 17px 0px;
+}
+
+.btn-primary {
+    display: inline-block;
+    /* background-color: rgb(200, 142, 88); */
+    padding: 19px 19px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.headerBlock { 
+    /* background-color: rgb(221, 186, 226);  */
+    padding: 50px 0px 50px 140px;
+    display: flex;
+    justify-content: space-between;
+ align-items: center;  
+}
+
+.headLeft{
+display:block;
+  flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.headline {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.intro{  
+    padding: 25px 0px 25px 0px;  
+}
+.buttonSet{
+padding: 0px 0px 00px 0px;
+}
+
+.headerButton {
+    padding: 15px;
+    display: inline-block;
+    /* background-color: rgb(129, 77, 136); */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 26px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.whatAHead {
+height: 305px;
+  float: right;
+  padding: 0px 140px 0px 0px;
+  filter: drop-shadow(5px 0px 10px #a2a2a2);
+}
+
+.footerBlock {
+    background-color: rgb(230, 230, 230);
+    height: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ align-items: center;  
+  flex-direction: column;
+    padding: 25px 0px 25px 0px;
+}
+
+.footerButton {
+    /* background-color: rgb(55, 118, 71); */
+    padding: 15px 15px 15px 15px;
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+
+}
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 64px;
+    line-height: 72px;
+    margin:0;
+}
+
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    margin:0;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin:0;
+}
