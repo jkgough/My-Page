@@ -515,7 +515,8 @@ padding-top: 50px;
 
 @media only screen and (max-width: 600px) {
     .footerBlock {
-        height: 300px;
+        height: 500px;
+        padding: 0px 40px 0px 40px;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -561,6 +562,14 @@ text-align: center;
     border-color: #2C3230;
     color: #ffffff;
     background-color: #2C3230;
+}
+
+@media only screen and (max-width: 600px) {
+   #blk-btn {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+    }
 }
 
  /* styles section */
