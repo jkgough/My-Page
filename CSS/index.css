@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /*Navigation Section*/
 
 .navBlock {
@@ -65,6 +69,11 @@
     }
     }
 
+    .btn-primary:hover{
+        color: #C8FF00;
+    
+    }
+
 
 .logo-mobile {
     /* background-color: brown; */
@@ -125,6 +134,7 @@ display:block;
 
 @media only screen and (max-width: 600px) {
     .headline {
+        text-align: left;
     display: block;
     width: 350px;
     }
@@ -150,13 +160,29 @@ padding: 0px 0px 00px 0px;
     /* background-color: rgb(129, 77, 136); */
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 26px;
-    border: 1px solid;
-    border-color: black;
+    border: 3.3px solid;
+    border-color: #FA023C;
+    color: #FA023C;
+    background-color: #ffffff;
+    
+}
+
+.headerButton:hover{
+    border: 3.3px solid;
+    border-color: #C8FF00;
+    color: #ffffff;
+    background-color: #C8FF00;
+}
+
+a:link {
+    /* color: #FA023C; */
+    text-decoration: none;
 }
 
 .whatAHead {
-height: 305px;
-  float: right;
+height: 500px;
+display: block;
+  /* float: right; */
   padding: 0px 140px 0px 0px;
   filter: drop-shadow(5px 0px 10px #a2a2a2);
 }
@@ -233,8 +259,9 @@ height: 305px;
         /* background-color: rgb(129, 77, 136); */
        font-family: 'Montserrat', sans-serif;
         font-size: 26px;
-        border: 1px solid;
-        border-color: black;
+        border: 3.3px solid;
+        border-color: #FA023C;
+        color: #FA023C;
     }
 #description{width: 500px;
 }
@@ -288,8 +315,16 @@ width: 400px;
         /* background-color: rgb(129, 77, 136); */
         font-family: 'Barlow Condensed', sans-serif;
         font-size: 26px;
-        border: 1px solid;
-        border-color: black;
+        border: 3.3px solid;
+        border-color: #FA023C;
+        color: #FA023C;
+    }
+
+    .projectButton:hover{
+        border: 3.3px solid;
+        border-color: #C8FF00;
+        color: #ffffff;
+        background-color: #C8FF00;
     }
 
     #projectName{width: 500px;
@@ -453,9 +488,11 @@ padding-top: 50px;
     filter: grayscale(1);
     /* overflow: hidden; */
     object-fit: cover;
-
-
   }
+
+    .godImg:hover, .godComImg:hover, .bunImg:hover, .cwhImg:hover {
+    filter: none;
+    }
 
   @media only screen and (max-width: 600px) {
     .footerBlock {
@@ -496,23 +533,36 @@ text-align: center;
 }
 
 .footerButton {
-    /* background-color: rgb(55, 118, 71); */
-    padding: 15px 15px 15px 15px;
+    padding: 15px;
     display: inline-block;
+    /* background-color: rgb(129, 77, 136); */
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 26px;
-    text-decoration: none;
-    color: black;
+    border: 3.3px solid;
+    border-color: #FA023C;
+    color: #FA023C;
 
 }
 
-@media only screen and (max-width: 600px) {
-    h5 {
-text-align: center;
-padding: 25px 0px 25px 0px;
-width: 400px;
-    }
+.footerButton:hover{
+    border: 3.3px solid;
+    border-color: #C8FF00;
+    color: #ffffff;
+    background-color: #C8FF00;
 }
+
+#blk-btn{
+    border-color: #2C3230;
+    color: #2C3230;
+}
+
+#blk-btn:hover{
+    border: 3.3px solid;
+    border-color: #2C3230;
+    color: #ffffff;
+    background-color: #2C3230;
+}
+
  /* styles section */
 
 h1 {
@@ -520,6 +570,7 @@ h1 {
     font-size: 64px;
     line-height: 72px;
     margin:0;
+    color: 2C3230;
 }
 
 @media only screen and (max-width: 600px) {
@@ -533,16 +584,34 @@ h2 {
     font-size: 40px;
     line-height: 48px;
     margin:0;
+    color: 2C3230;
 }
 
 h5{ font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     line-height: 32px;
-    margin:0;}
+    margin:0;
+    color: 2C3230;
+}
+
+@media only screen and (max-width: 600px) {
+    h5 {
+text-align: center;
+padding: 25px 0px 25px 0px;
+width: 400px;
+    }
+}
 
 p{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 24px;
     margin:0;
+    color: 2C3230;
 }
+
+
+
+
+
+ 
